@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'DotUpFood' do
+pod 'SnapKit'
+pod 'Kingfisher'
+pod 'MBProgressHUD'
+pod 'DGElasticPullToRefresh'
+pod 'SwipeTableView'
+pod 'SwiftyJSON'
+pod 'HandyJSON'
+
+
+
+end
