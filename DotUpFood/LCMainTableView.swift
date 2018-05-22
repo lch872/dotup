@@ -77,15 +77,10 @@ class LCMainTableView: UITableViewController,SwipeTableViewDelegate,SwipeTableVi
     
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       let swipe = SwipeTableView.init(frame: self.view.bounds)
-        swipe.delegate = self
-        swipe.dataSource = self
-        swipe.shouldAdjustContentSize = Bool.init(exactly: 1)!
-//        swipe.swipeHeaderView = self.tableViewHeader;
-//        swipe.swipeHeaderBar = self.segmentBar;
+
         
-        let vc = UIViewController.init()
-        vc.view = swipe
+        let vc = RestaurantView.init()
+//        vc.view = swipe
         
         self.present(vc, animated: true, completion: nil)
         
