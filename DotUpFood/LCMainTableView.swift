@@ -42,8 +42,7 @@ class LCMainTableView: UITableViewController,SwipeTableViewDelegate,SwipeTableVi
         let arr:Array<AnyObject> = dict.value(forKey: "items") as! Array
         
         modelArray = JSONDeserializer<RestaurantModel>.deserializeModelArrayFrom(array: arr) as! Array<AnyObject>
-    
-        
+
         
     }
 
@@ -81,8 +80,8 @@ class LCMainTableView: UITableViewController,SwipeTableViewDelegate,SwipeTableVi
         
         let vc = RestaurantView.init()
 //        vc.view = swipe
-        
-        self.present(vc, animated: true, completion: nil)
+        let nav = UINavigationController.init(rootViewController: vc)
+        self.present(nav, animated: true, completion: nil)
         
     }
 

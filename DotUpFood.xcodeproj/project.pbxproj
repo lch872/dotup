@@ -10,6 +10,9 @@
 		5746F12220B428A200438C77 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746F12120B428A200438C77 /* RestaurantView.swift */; };
 		5746F12420B42EE800438C77 /* FoodChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746F12320B42EE800438C77 /* FoodChooseView.swift */; };
 		5746F12620B4323900438C77 /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5746F12520B4323900438C77 /* unnamed.jpg */; };
+		57551D6420B50EF1000C6BED /* CustomSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 57551D6320B50EF0000C6BED /* CustomSegmentControl.m */; };
+		57551D6C20B52BC7000C6BED /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57551D6B20B52BC7000C6BED /* CodableHelper.swift */; };
+		57551D7020B54639000C6BED /* SegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57551D6F20B54639000C6BED /* SegmentControlView.swift */; };
 		576C0A7920B3E0EE00D98B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C0A7820B3E0EE00D98B51 /* AppDelegate.swift */; };
 		576C0A7E20B3E0EE00D98B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576C0A7C20B3E0EE00D98B51 /* Main.storyboard */; };
 		576C0A8020B3E0EF00D98B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576C0A7F20B3E0EF00D98B51 /* Assets.xcassets */; };
@@ -26,6 +29,10 @@
 		5746F12120B428A200438C77 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		5746F12320B42EE800438C77 /* FoodChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChooseView.swift; sourceTree = "<group>"; };
 		5746F12520B4323900438C77 /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
+		57551D6220B50EF0000C6BED /* CustomSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentControl.h; sourceTree = "<group>"; };
+		57551D6320B50EF0000C6BED /* CustomSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentControl.m; sourceTree = "<group>"; };
+		57551D6B20B52BC7000C6BED /* CodableHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		57551D6F20B54639000C6BED /* SegmentControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlView.swift; sourceTree = "<group>"; };
 		576C0A7520B3E0EE00D98B51 /* DotUpFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotUpFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576C0A7820B3E0EE00D98B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576C0A7D20B3E0EE00D98B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,8 +96,12 @@
 				576C0A8C20B3E16800D98B51 /* LCMainTableView.swift */,
 				576C0A8A20B3E12800D98B51 /* LCMainViewCell.swift */,
 				576C0A9620B404A600D98B51 /* RestaurantModel.swift */,
+				57551D6B20B52BC7000C6BED /* CodableHelper.swift */,
 				5746F12120B428A200438C77 /* RestaurantView.swift */,
 				5746F12320B42EE800438C77 /* FoodChooseView.swift */,
+				57551D6220B50EF0000C6BED /* CustomSegmentControl.h */,
+				57551D6320B50EF0000C6BED /* CustomSegmentControl.m */,
+				57551D6F20B54639000C6BED /* SegmentControlView.swift */,
 				576C0A7C20B3E0EE00D98B51 /* Main.storyboard */,
 				576C0A7F20B3E0EF00D98B51 /* Assets.xcassets */,
 				576C0A8120B3E0EF00D98B51 /* LaunchScreen.storyboard */,
@@ -239,9 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57551D6C20B52BC7000C6BED /* CodableHelper.swift in Sources */,
 				576C0A8B20B3E12800D98B51 /* LCMainViewCell.swift in Sources */,
 				576C0A7920B3E0EE00D98B51 /* AppDelegate.swift in Sources */,
 				576C0A9720B404A600D98B51 /* RestaurantModel.swift in Sources */,
+				57551D6420B50EF1000C6BED /* CustomSegmentControl.m in Sources */,
+				57551D7020B54639000C6BED /* SegmentControlView.swift in Sources */,
 				5746F12220B428A200438C77 /* RestaurantView.swift in Sources */,
 				576C0A8D20B3E16800D98B51 /* LCMainTableView.swift in Sources */,
 				5746F12420B42EE800438C77 /* FoodChooseView.swift in Sources */,

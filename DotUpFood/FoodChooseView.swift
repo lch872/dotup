@@ -10,7 +10,7 @@ import UIKit
 
 class FoodChooseView: UITableView,UITableViewDelegate,UITableViewDataSource {
 
-    
+    var foodItemsArray:Array<ProductModel>?
 
     override init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: frame, style: style)
@@ -24,14 +24,16 @@ class FoodChooseView: UITableView,UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "chooseCell")
-        cell?.textLabel?.text = "3333333333"
-        
+        cell?.textLabel?.text = "2.3 Cheese Egg Parata"//foodItemsArray![indexPath.row].name
+        cell?.detailTextLabel?.text = "Flatbread made from whole wheat flour"
         
         return cell!
     }
+    
+
 }

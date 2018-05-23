@@ -8,6 +8,7 @@
 
 import UIKit
 import HandyJSON
+
 class RestaurantModel: NSObject,HandyJSON {
     var address:String?
     var customer_phone:String?
@@ -93,3 +94,21 @@ class RestaurantModel: NSObject,HandyJSON {
     
     required override init(){}
 }
+
+
+class ProductModel: NSObject,HandyJSON {
+    var name: String?
+    var descriptions: String?
+    var id: NSNumber?
+    var price: NSNumber?
+    required override init(){}
+}
+
+class MenuCategoriesModel: NSObject,HandyJSON {
+    var name: String?
+    var productsArray:Array<ProductModel>?
+    
+    required override init(){}
+}
+
+
