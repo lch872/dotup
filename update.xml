@@ -3,7 +3,6 @@
     <channel>
         <title>穿梭Transocks</title>
         <!-- <description>Most recent changes with links to updates.</description> -->
-        <!-- <language>zh-cn</language> -->
 		<item>
 		    <title>Version 2.0 (2 bugs fixed; 3 new features)</title>
 		    <sparkle:releaseNotesLink>https://raw.githubusercontent.com/lch872/dotup/master/featrue.html</sparkle:releaseNotesLink>
@@ -13,7 +12,6 @@
 		               sparkle:edSignature="jKLL8+SDLDqU3FfQ1Y1IkN/x1wP+M6kT1NBEq2/PhV/k8uHB3aWnNqvh8XuCbOmLiuP6o0tJjT2AzJsVp6bxCg=="
 		               length="27852863"
 		               type="application/octet-stream" />
-		</item>
 		</item>
     </channel>
 </rss>
